@@ -56,7 +56,7 @@ public class FormHelper extends SQLiteOpenHelper {
         if (cursor.moveToFirst()) {
             do {
                 // on below line we are adding the data from cursor to our array list.
-                DataModelArrayList.add(new DataModel(cursor.getString(1),
+                DataModelArrayList.add(new DataModel(cursor.getString(0),
                         cursor.getString(4),
                         cursor.getString(2),
                         cursor.getString(3)));

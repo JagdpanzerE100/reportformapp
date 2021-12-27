@@ -85,7 +85,7 @@
                 android:minHeight="48dp"
                 android:padding="5dp"
                 android:singleLine="false"
-                android:text="hrif.ifan@gmail.com"
+                android:text="MyEmail123@gmail.com"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -131,7 +131,7 @@
                 android:minHeight="48dp"
                 android:padding="5dp"
                 android:singleLine="false"
-                android:text="+65 91452848"
+                android:text="+99 12345678"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
