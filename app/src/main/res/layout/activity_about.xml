@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#98A094"
+    tools:context=".About" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/raleway_bold"
+            android:text="About"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/about_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/light_black"
+            android:breakStrategy="balanced"
+            android:fitsSystemWindows="true"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:minWidth="32dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:text="This app is created for Singaporeans to write a report to the town council regarding maintenance and repairs in public areas. Users will be asked to fill in personal details and upload a picture of the issue. All forms submitted can be seen in the All Forms page. .The location of the report will automatically be shown using google maps based on the address the user typed."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/light_black"
+                android:breakStrategy="balanced"
+                android:fitsSystemWindows="true"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:minWidth="32dp"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="Email:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/email_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:autoLink="email"
+                android:backgroundTint="@color/light_black"
+                android:breakStrategy="balanced"
+                android:fitsSystemWindows="true"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:minWidth="32dp"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="hrif.ifan@gmail.com"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/light_black"
+                android:breakStrategy="balanced"
+                android:fitsSystemWindows="true"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:minWidth="32dp"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="Phone Number:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:autoLink="phone"
+                android:backgroundTint="@color/light_black"
+                android:breakStrategy="balanced"
+                android:fitsSystemWindows="true"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:minWidth="32dp"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="+65 91452848"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

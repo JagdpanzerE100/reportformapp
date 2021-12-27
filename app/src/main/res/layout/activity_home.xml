@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/form_button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/raleway_bold"
+        android:text="New form"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#69B09C"
+        app:layout_constraintBottom_toTopOf="@+id/display_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/display_button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/raleway_bold"
+        android:text="All Forms"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#69B09C"
+        app:layout_constraintBottom_toTopOf="@+id/submit_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/raleway_bold"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#6E867F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/raleway_bold"
+        android:textStyle="bold"
+        android:text="About"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+        app:backgroundTint="#69B09C"
+        app:layout_constraintBottom_toTopOf="@+id/form_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
